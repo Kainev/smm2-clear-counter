@@ -1,0 +1,36 @@
+[region]
+# course_clear = [500, 20, 920, 1040] # X, Y, Width, Height
+course_clear = [451, 63, 1075, 916] # X, Y, Width, Height
+# pause_menu = [1300, 650, 500, 50] # ^^^^^^^^^
+pause_menu = [1238, 667, 514, 23]
+# exit_course = [1300, 800, 500, 50] # ^^^^^^^^^
+exit_course = [1238, 723, 514, 23]
+game_over = [650, 350, 620, 70] # ^^^^^^^^^
+is_black = [500, 300, 920, 480] # ^^^^^^^^^
+
+[output]
+directory = ""
+
+[settings]
+num_windows = 2
+free_skips = 0
+skip_penalty = -1
+game_over_penalty = -1
+
+[thresholds]
+game_over_lower_bound = [200, 120, 180]
+game_over_upper_bound = [255, 180, 240]
+course_clear_lower_bound = [0, 185, 225]
+course_clear_upper_bound = [30, 235, 255]
+pause_menu_lower_bound = [0, 185, 225]
+pause_menu_upper_bound = [30, 235, 255]
+exit_course_lower_bound = [20, 20, 70]
+exit_course_upper_bound = [80, 80, 130]
+black_lower_bound = [0, 0, 0]
+black_upper_bound = [30, 30, 30]
+course_clear_threshold = 0.75
+pause_menu_threshold = 0.75
+exit_course_threshold = 0.75
+game_over_threshold = 0.1
+black_threshold = 0.75
+

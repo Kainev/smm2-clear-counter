@@ -1,0 +1,8 @@
+Nuitka==0.8.4
+numpy==1.22.4
+opencv-python==4.5.3.56
+ordered-set==4.1.0
+psutil==5.9.1
+pywin32==304
+toml==0.10.2
+zstandard==0.17.0
